@@ -4,7 +4,7 @@ const { Plugin } = require('powercord/entities');
 module.exports = class httpcat extends Plugin {
   async startPlugin () {
     powercord.api.commands.registerCommand({
-      command: 'httpcat',
+      command: 'http',
       description: 'httpcat',
       usage: '{c} [number]',
       executor: (args) => ({
@@ -15,6 +15,6 @@ module.exports = class httpcat extends Plugin {
   }
 
   pluginWillUnload () {
-    powercord.api.commands.unregisterCommand('httpcat');
+    powercord.api.commands.unregisterCommand('http');
   }
 };
