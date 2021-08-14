@@ -1,0 +1,7 @@
+{
+    "name": "Scam Link Ban",
+    "version": "1.0.0",
+    "description": "Bans a user for sending a steam scam link. Only works with https://inv.wtf/bot, and only if it has the default prefix 'fire '",
+    "author": "Zordlan",
+    "license": "MIT"
+}
