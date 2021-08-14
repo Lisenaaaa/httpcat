@@ -9,7 +9,7 @@ module.exports = class httpcat extends Plugin {
       usage: '{c} [number]',
       executor: (args) => ({
         send: true,
-        result: `https://http.cat/${args[0]}`
+        result: `https://http.cat/${args[0]??'404'}`
       })
     });
   }
