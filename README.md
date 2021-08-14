@@ -1,1 +1,3 @@
-httpcat
+# httpcat
+
+{prefix}http 404
